@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem "rails", "3.0.3"
-gem "sqlite3-ruby"
+gem "mysql2"
 gem "haml"
 gem "delayed_job"
 gem "stringex"
@@ -18,6 +18,7 @@ gem "shout-bot"
 gem "tinder"
 
 group :development, :test do
+  gem "sqlite3-ruby"
   gem "capybara"
   gem "launchy"
   gem "faker"
